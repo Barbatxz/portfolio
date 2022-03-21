@@ -5,9 +5,12 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <div>
-    Projects
-  </div>
+  <Section>
+    <SectionTitle main>Projects</SectionTitle>
+      <SectionDivider />
+        <GridContainer>
+        </GridContainer>
+  </Section>
 );
 
 export default Projects;
