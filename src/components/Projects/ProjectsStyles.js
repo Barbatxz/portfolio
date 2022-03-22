@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width: 40rem;
+  height:21rem;
+  border-radius: 0.5rem;
   object-fit: cover;
   overflow: hidden;
 `
@@ -23,8 +24,8 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -35,6 +36,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  margin-top: 1rem;
 
 `;
 
@@ -67,7 +69,10 @@ export const Intro = styled.div`
 
 
 export const CardInfo = styled.p`
-  width: 100%;
+  width: 40rem;
+  height: 22rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
   padding: 0 50px;
   color: #e4e6e7;
   font-style: 2rem;
