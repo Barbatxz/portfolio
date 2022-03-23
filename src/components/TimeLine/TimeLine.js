@@ -43,7 +43,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <Section id='timeline'>
+    <Section id='about'>
       <SectionTitle>About me</SectionTitle>
       <SectionDivider />
       <br />
