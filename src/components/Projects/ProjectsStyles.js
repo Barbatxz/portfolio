@@ -6,6 +6,10 @@ export const Img = styled.img`
   border-radius: 0.5rem;
   object-fit: cover;
   overflow: hidden;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+    height: 100%;
+  }
 `
 
 export const GridContainer = styled.section`
@@ -79,7 +83,10 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding: 1.5rem;
+    width: 100%;
+
+
   
 }
 `;
