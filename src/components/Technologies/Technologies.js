@@ -6,11 +6,11 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id='tech'>
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tecnologías</SectionTitle>
     <SectionDivider />
     <br />
     <SectionText>
-      I've been working with the following technologies: ReactJs, Firebase, Ruby on Rails, Javascript, HTML, CSS, and more.
+      He estado trabajando con las siguientes tecnologías: HTML, CSS, Javascript, ReactJs, Ruby on Rails, Bootstrap, GIT y más.
     </SectionText>
     <List>
       <ListItem>
@@ -18,7 +18,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            ReactJs, Javascript, HTML, CSS
+            HTML, CSS, Javascript, ReactJs y Bootstrap.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,16 +27,16 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Ruby, NodeJs and Databases
+            NodeJs, Ruby y Bases de Datos (Postgresql, MongoDB).
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <FiFigma size="3rem" />
         <ListContainer>
-          <ListTitle>UX-UI</ListTitle>
+          <ListTitle>UI-UX Designer</ListTitle>
           <ListParagraph>
-            XD, Figma, Photoshop
+            Figma y Adobe XD.
           </ListParagraph>
         </ListContainer>
       </ListItem>

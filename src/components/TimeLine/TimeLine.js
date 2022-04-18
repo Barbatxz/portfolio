@@ -32,8 +32,6 @@ const handleScroll = () => {
   }
 }
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
 useEffect(() => {
   const handleResize = () => {
     scroll(carouselRef.current, 0);
@@ -44,11 +42,11 @@ useEffect(() => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About me</SectionTitle>
+      <SectionTitle>Sobre mí</SectionTitle>
       <SectionDivider />
       <br />
       <SectionText>
-        I'm a full-stack web developer with a passion for creating beautiful, responsive, and intuitive user experiences.
+      Soy un Desarrollador Web a quien le apasiona la creación de sitios y aplicaciones web que sean fáciles de usar, escalables y mantenibles; además de eso me interesa que las mismas sean intuitivas y respeten los lineamientos de diseño para que la Experiencia de Usuario sea la más agradable posible. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
