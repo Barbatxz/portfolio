@@ -7,7 +7,7 @@ import { data } from '../../constants/constants';
 
 const Acomplishments = () => (
   <Section id='acomplishments'>
-    <SectionTitle>Personal Acomplishments</SectionTitle>
+    <SectionTitle>Logros Personales</SectionTitle>
     <SectionDivider />
     <Boxes>
       {data.map((card, index) => (

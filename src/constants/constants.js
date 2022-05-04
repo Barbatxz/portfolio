@@ -19,12 +19,12 @@ export const projects = [
   },
   {
     title: 'Mi Portfolio',
-    description:"Con este proyecto, aplico lo aprendido de tecnologias como ReactJs y NodeJs, en el mismo reflejo mis conocimientos y muestro lo que he sido capaz de aprender y crear a partir de losCon este proyecto, aplico lo aprendido de tecnologías como ReactJs y NodeJs, en el cual reflejo mis conocimientos y muestro lo que he sido capaz de aprender y crear a partir de los mismos.",
-    image: '/images/2.png',
+    description:"Con este proyecto, aplico lo aprendido de tecnologías como ReactJs y NodeJs, para reflejar mis conocimientos al mismo tiempo que muestro lo que he sido capaz de aprender y crear a partir de dichos conocimientos y tecnologias.",
+    image: '/images/3.png',
     tags: ['React', 'JavaScript, Material-UI'],
     source: 'https://github.com/Barbatxz/portfolio',
     visit: 'https://jcoronadodev.me/',
-    id: 1,
+    id: 3,
   },
 ];
 
