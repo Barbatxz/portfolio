@@ -1,30 +1,21 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
     title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description:"Proyecto e-commerce basado en React.js y Next.js con implementación de Sanity para la gestión de productos y Stripe como pasarela de pago, el mismo es 100% funcional y con Diseño Responsivo.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React', 'JavaScript', 'NextJs'],
+    source: 'https://github.com/Barbatxz/ecommerce_nextjs',
+    visit: 'https://ecommerce-nextjs-delta.vercel.app/',
     id: 1,
   },
   {
     title: 'Mi Portfolio',
     description:"Con este proyecto, aplico lo aprendido de tecnologías como ReactJs y NodeJs, para reflejar mis conocimientos al mismo tiempo que muestro lo que he sido capaz de aprender y crear a partir de dichos conocimientos y tecnologias.",
     image: '/images/3.png',
-    tags: ['React', 'JavaScript, Material-UI'],
+    tags: ['React', 'JavaScript', 'Material-UI'],
     source: 'https://github.com/Barbatxz/portfolio',
     visit: 'https://jcoronadodev.me/',
-    id: 3,
+    id: 2,
   },
 ];
 
@@ -38,5 +29,5 @@ export const TimeLineData = [
 
 export const data = [
   { number: 3, text: 'Proyectos realizados.' },
-  { number: 1, text: 'Sitio desplegado completamente.', }
+  { number: 2, text: 'Sitio desplegado completamente.', }
 ];

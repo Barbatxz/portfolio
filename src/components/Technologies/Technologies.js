@@ -10,7 +10,7 @@ const Technologies = () =>  (
     <SectionDivider />
     <br />
     <SectionText>
-      He estado trabajando con las siguientes tecnologías: HTML, CSS, Javascript, ReactJs, Ruby on Rails, Bootstrap, GIT y más.
+      He estado trabajando con las siguientes tecnologías: HTML, CSS, Javascript, ReactJs, NextJs, Ruby on Rails, Bootstrap, GIT y más.
     </SectionText>
     <List>
       <ListItem>
@@ -27,7 +27,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            NodeJs, Ruby y Bases de Datos (Postgresql, MongoDB).
+            NodeJs, NextJs, Ruby y Bases de Datos (PostgreSQL)).
           </ListParagraph>
         </ListContainer>
       </ListItem>
